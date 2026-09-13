@@ -2,6 +2,7 @@
 	reserved-memory {
 		ramoops: ramoops {
 			compatible = "ramoops";
+			no-map;
 			reg = <0 0xb0000000 0 0x800000>;
 			record-size = <0x200000>;
 			console-size = <0x200000>;
